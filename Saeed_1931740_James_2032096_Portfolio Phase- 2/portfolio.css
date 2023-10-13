@@ -1,0 +1,112 @@
+header, nav, main, footer, figure, figcaption { display: block; }
+
+body { background-image: url(kaliaoS.png);
+	margin: 1%; }
+
+#wrapper { background-color: #FFFFFF;
+	max-width: 1350px; 
+	min-width: 1350px; 
+	margin: auto; 
+	width: 80%;
+	border-left: 3px solid #314455; 
+	border-right: 3px solid #314455; }
+
+h1 { background-color: #997A8D;
+	color: #FFFFFF; 
+	font-family: Georgia, Times New Roman, serif; 
+	text-align: center;
+	text-shadow: 3px 3px 6px #3333CC; 
+	padding-bottom: 0px; 
+	padding-left: 1em; 
+	padding-right: 1em; 
+	padding-top:50px; 
+	height: 100px; 
+	margin: 0px; 
+	border-bottom: 3px solid #314455; 
+	border-top: 3px solid #314455; } 	
+	
+nav { text-align:center; 
+	font-weight: bold;
+	width: 160px; 
+	padding: 1em; 
+	float: left; } 
+	
+nav a { text-decoration: none;
+	text-align: center; 
+	font-weight: bold; 
+	padding: 1em; 
+	margin-bottom: 1em;
+	border: 3px #FDAB9F outset; 
+	display: block; } 	
+	
+nav a:link { color: #997A8D; } 
+
+nav a:visited { color: #993399; }
+
+nav a:hover { color: #3333CC;
+	border: 3px #314455 inset; }
+
+nav ul { list-style-type: none;
+	padding-left: 0; } 
+	
+main { background-image: linear-gradient(#FDAB9F, #644E5B);
+	padding: 1em;
+	margin-left: 200px;
+	display: block; 
+	border-left: 3px solid #314455; } 
+
+dt { color: #314455; 
+	font-family: Georgia, Times New Roman, serif;  
+	font-style: italic;
+	line-height: 2em; } 
+	
+dd { text-align: left;
+	margin-left: 2em;
+	line-height: 1em; } 
+	
+h3 { color: #FFFFFF; 
+	font-family: Georgia, Times New Roman, serif; 
+	text-align: left; } 
+	
+footer { background-color: #997A8D; 
+	color: #FFFFFF; 
+	font-family: Georgia, Times New Roman, serif; 
+	font-size: .60em; 
+	font-style: italic; 
+	text-align: center; 
+	padding-bottom: 25px; 
+	padding-left: 1em; 
+	padding-right: 1em; 
+	padding-top: 25px;
+	border-top: 3px solid #314455;	
+	border-bottom: 3px solid #314455; }	
+	
+figure { font-size: .60em; } 
+
+#site { text-align: center; }
+
+#wire { text-align: center; } 
+						
+#gallery { position: relative; }
+
+#gallery ul { width: 250px; 
+             list-style-type: none; }
+
+#gallery li { padding: 10px; 
+			  list-style-type: square; 
+			  text-align: justify; 
+			  line-height: 200%; }
+			  
+#gallery img { border-style: none; }
+
+#gallery a { text-decoration: none; 
+             color: #333; 
+			 font-style: italic; }
+			 
+#gallery span { display: none; }   
+
+#gallery a:hover span { display: block; 
+                        position: relative;
+					    top: 10px; 
+						left: 300px; 
+						text-align: center; }
